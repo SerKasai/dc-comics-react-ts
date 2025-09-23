@@ -2,6 +2,7 @@
 import "./App.css";
 import MainHeader from "./MainHeader";
 import MainContent from "./MainContent";
+import MainFooter from "./MainFooter";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -10,6 +11,7 @@ function App() {
     <>
       <MainHeader></MainHeader>
       <MainContent></MainContent>
+      <MainFooter></MainFooter>
       {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
