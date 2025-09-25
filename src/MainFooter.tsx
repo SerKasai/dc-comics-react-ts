@@ -81,7 +81,7 @@ function MainFooter() {
           sign-up now!
         </button>
         <div className="flex items-center gap-x-6">
-          <div className="text-blue-500 bebas-neue-regular text-2xl cursor-pointer">
+          <div className="text-blue-500 bebas-neue-regular text-2xl cursor-pointer relative top-1">
             follow us
           </div>
           <ul className="flex gap-x-5">
