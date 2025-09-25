@@ -74,7 +74,10 @@ function MainFooter() {
         </div>
       </section>
       <section className="bg-[#242424] flex justify-around items-center py-8 pr-14">
-        <button className="uppercase rounded-none bg-transparent border-blue-500">
+        <button
+          id="button-footer"
+          className="uppercase rounded-none bg-transparent border-blue-500"
+        >
           sign-up now!
         </button>
         <div className="flex items-center gap-x-6">
@@ -84,7 +87,10 @@ function MainFooter() {
           <ul className="flex gap-x-5">
             {icons.map((icon) => (
               <li key={icon.icon}>
-                <img src={icon.icon} className="cursor-pointer" />
+                <img
+                  src={icon.icon}
+                  className="cursor-pointer hover:brightness-[1.5]"
+                />
               </li>
             ))}
           </ul>
