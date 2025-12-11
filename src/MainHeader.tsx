@@ -66,7 +66,7 @@ const arrayLinks = [
 function MainHeader() {
   return (
     <header className="text-black flex w-full justify-around p-3.5">
-      <img src="../public/assets/dc-logo.png" className="cursor-pointer" />
+      <img src="../public/assets/img/dc-logo.png" className="cursor-pointer" />
       <ul className="flex flex-wrap gap-6 uppercase text-xl items-center justify-center content-center bebas-neue-regular">
         {arrayLinks.map((link) => (
           <li key={link.id} className="hover:text-blue-500 cursor-pointer">
