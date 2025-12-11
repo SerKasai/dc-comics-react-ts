@@ -12,27 +12,27 @@ type CharacterHero = {
 const cards = [
   {
     id: 0,
-    img: "/src/assets/buy-comics-digital-comics.png",
+    img: "../public//assets/buy-comics-digital-comics.png",
     text: "digital comics",
   },
   {
     id: 1,
-    img: "/src/assets/buy-comics-merchandise.png",
+    img: "../public//assets/buy-comics-merchandise.png",
     text: "dc merchandise",
   },
   {
     id: 2,
-    img: "/src/assets/buy-comics-subscriptions.png",
+    img: "../public//assets/buy-comics-subscriptions.png",
     text: "subscription",
   },
   {
     id: 3,
-    img: "/src/assets/buy-comics-shop-locator.png",
+    img: "../public//assets/buy-comics-shop-locator.png",
     text: "comic shop locator",
   },
   {
     id: 4,
-    img: "/src/assets/buy-dc-power-visa.svg",
+    img: "../public//assets/buy-dc-power-visa.svg",
     text: "dc power visa",
   },
 ];
@@ -52,7 +52,7 @@ function MainContent() {
 
   return (
     <main>
-      <div className="jumbotron bg-[#242424] bg-[url(/src/assets/jumbotron.jpg)]">
+      <div className="jumbotron bg-[#242424] bg-[url(../public//assets/jumbotron.jpg)]">
         <button className="uppercase relative top-[93%] right-[29%] bg-blue-500! rounded-none! cursor-auto! text-lg!">
           Current series
         </button>

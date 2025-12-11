@@ -36,17 +36,17 @@ const links: Link[] = [
 type LinkBottom = { icon: string };
 
 const icons: LinkBottom[] = [
-  { icon: "/src/assets/footer-facebook.png" },
-  { icon: "/src/assets/footer-twitter.png" },
-  { icon: "/src/assets/footer-youtube.png" },
-  { icon: "/src/assets/footer-pinterest.png" },
-  { icon: "/src/assets/footer-periscope.png" },
+  { icon: "../public//assets/footer-facebook.png" },
+  { icon: "../public//assets/footer-twitter.png" },
+  { icon: "../public//assets/footer-youtube.png" },
+  { icon: "../public//assets/footer-pinterest.png" },
+  { icon: "../public//assets/footer-periscope.png" },
 ];
 
 function MainFooter() {
   return (
     <footer>
-      <section className="bg-[url(/src/assets/footer-bg.jpg)] bg-img flex">
+      <section className="bg-[url(../public//assets/footer-bg.jpg)] bg-img flex">
         <div className="bebas-neue-regular flex justify-center p-7 gap-x-5 w-1/2">
           {links.map((link) => (
             <section
@@ -69,7 +69,7 @@ function MainFooter() {
             </section>
           ))}
         </div>
-        <div className="bg-[url(/src/assets/dc-logo-bg.png)] w-[30%] bg-cover bg-center text-transparent">
+        <div className="bg-[url(../public//assets/dc-logo-bg.png)] w-[30%] bg-cover bg-center text-transparent">
           image
         </div>
       </section>
